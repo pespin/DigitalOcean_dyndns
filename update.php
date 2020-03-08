@@ -187,7 +187,7 @@ foreach ($hostArray as $currentHost) {
 				$recordName = '@';
 				break;
 			}
-			
+
 			continue;
 		}
 	}
@@ -239,7 +239,7 @@ foreach ($hostArray as $currentHost) {
 		if (!array_key_exists('id', $record)) {
 			continue;
 		}
-		
+
 		if (!array_key_exists('type', $record)) {
 			continue;
 		}
@@ -293,4 +293,3 @@ foreach ($hostArray as $currentHost) {
 		echo("dnserr\r\n");
 	}
 }
-
