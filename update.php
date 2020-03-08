@@ -102,7 +102,7 @@ if ($isIpValid == false) {
 
 	$log->addError("Invalid IP Address, is not IPv4 or is Private or Reserved", $data);
 	die("dnserr\r\n");
-	continue;
+	return;
 }
 
 $ipFromDNS = '';
